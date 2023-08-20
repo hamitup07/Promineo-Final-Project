@@ -1,0 +1,27 @@
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    
+  }
+  
+  ul {
+    margin: 10px auto;
+    padding: 0;
+  }
+  
+  li {
+    text-align: left;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px black;
+    border-left: 6px solid rgb(99, 99, 199);
+  }
+  
+  button {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    border-radius: 10%;
+    padding: 4px;
+  }

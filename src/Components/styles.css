@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ html {
+    font-family: sans-serif;
+}
+
+ body {
+        background: #FFFFFF ;
+ }
+
+ .header {
+    margin: auto -10px;
+    padding: 10px 20px;
+    box-shadow: 0 0 2px 0 rgb(114, 114, 114);
+    display: flex;
+    align-self: center;
+    align-items: center;
+ }
+
+ .header h3 {
+    font-size: 1.5rem;
+    margin-left: 2px;
+    color: #5f6368;
+ }
+
+ form {
+    position: relative;
+    width: 600px;
+    margin: 32px auto 50px auto;
+    background-color: white;
+    padding: 7px;
+    border-radius: 7px;
+    box-shadow: 0 1px 7px rgb(128, 128, 128);
+ }
+
+ form input {
+    width: 100%;
+    border: none;
+    padding: 4px 10px;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 1rem;
+    resize: none;
+
+ }
+
+ form textarea{
+    width: 100%;
+    border: none;
+    padding: 4px 10px;
+    outline: none;
+    font-size: 1rem;
+    resize: none;
+
+ }
+
+ .note {
+    background: #efefef;
+    width: 240px;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px rgb (175, 175, 175);
+    padding: 10px;
+    margin: 16px;
+    float: left;
+    margin-right: 0;
+    border: 1;
+    outline:auto;
+ }
+
+ .note h1 {
+    font-size: 1rem;
+    margin-bottom: 6px;
+    font-style: bold;
+ }
+
+ note p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+ }
+
+ /* form button {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 18px;
+    bottom: -18px;
+    background: rgb(6, 195, 38);
+    color: white;
+    border: none;
+    width: 30px;
+    height: 34px;
+    box-shadow: 0 1px 3px black;
+    cursor: pointer;
+    outline: none;
+ } */
+
+ .note button{
+    position: relative;
+    float: right;
+    cursor: pointer;
+ }
+
+
+
+.quoteParagraph {
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+}

@@ -1,0 +1,14 @@
+.icon {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: red;
+}
+
+.check-icon {
+    font-size: 25px;
+    margin-left: 10px;
+    color: rgb(0,230,122);
+}
